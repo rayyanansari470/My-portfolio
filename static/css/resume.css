@@ -1,0 +1,123 @@
+a[href="/resume.html"] {
+    color: rgb(0, 247, 255);
+}
+
+#h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #3d93c5;
+    position: absolute;
+    top: 155px;
+    left: 378px;
+
+}
+
+#info {
+    border: 8px solid #3d93c5;
+    width: 350px;
+    position: absolute;
+    top: 235px;
+    left: 350px;
+    border-radius: 32px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 5px;
+}
+
+#h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #3d93c5;
+    position: absolute;
+    top: 445px;
+    left: 378px;
+}
+
+#skills {
+    border: 8px solid #3d93c5;
+    width: 350px;
+    position: absolute;
+    top: 521px;
+    left: 350px;
+    border-radius: 32px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 5px;
+}
+
+#main_h {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 100px;
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-stroke: 1px #3a3a3a;
+    color: #3d93c5;
+    position: absolute;
+    top: -77px;
+    left: 790px;
+}
+
+#h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #3d93c5;
+    position: absolute;
+    top: 155px;
+    left: 1477px;
+}
+
+#side_skills {
+    border: 8px solid #3d93c5;
+    width: 350px;
+    position: absolute;
+    top: 235px;
+    left: 1452px;
+    border-radius: 32px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 5px;
+}
+
+#h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #3d93c5;
+    position: absolute;
+    top: 455px;
+    left: 1477px;
+}
+
+#projects {
+    border: 8px solid #3d93c5;
+    width: 350px;
+    position: absolute;
+    top: 521px;
+    left: 1452px;
+    border-radius: 32px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 5px;
+}
+
+#h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #3d93c5;
+    position: absolute;
+    top: 331px;
+    left: 915px;
+}
+
+#education {
+    border: 8px solid #3d93c5;
+    width: 350px;
+    position: absolute;
+    top: 411px;
+    left: 887px;
+    border-radius: 32px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 5px;
+}

@@ -1,0 +1,80 @@
+a[href="/about.html"] {
+    color: rgb(0, 247, 255);
+}
+
+#h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #3d93c5;
+    position: absolute;
+    top: 136px;
+    left: 352px;
+}
+
+#intro {
+    border: 8px solid #3d93c5;
+    position: absolute;
+    top: 210px;
+    left: 322px;
+    width: 1556px;
+    border-radius: 32px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 5px;
+}
+
+#h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #3d93c5;
+    position: absolute;
+    top: 358px;
+    left: 352px;
+}
+
+#objectives {
+    border: 8px solid #3d93c5;
+    position: absolute;
+    top: 432px;
+    left: 322px;
+    width: 1556px;
+    border-radius: 32px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 5px;
+}
+
+#h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #3d93c5;
+    position: absolute;
+    top: 604px;
+    left: 352px;
+}
+
+#looking_forward_to {
+    border: 8px solid #3d93c5;
+    position: absolute;
+    top: 678px;
+    left: 322px;
+    width: 1556px;
+    border-radius: 32px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 5px;
+}
+
+#main_h {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 100px;
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-stroke: 1px #3a3a3a;
+    color: #3d93c5;
+    position: absolute;
+    top: -77px;
+    left: 790px;
+}

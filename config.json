@@ -1,0 +1,14 @@
+{
+    "params":
+    {
+        "local_server" : "",
+        "local_uri" : "",
+        "prod_uri" : "",
+        "insta_url" : "",
+        "x_url" : "",
+        "youtube_url" : "",
+        "linked_in_url" : "",
+        "gmail-user" : "",
+        "gmail-password" : ""
+    }
+}

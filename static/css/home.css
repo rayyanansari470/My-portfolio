@@ -1,0 +1,38 @@
+a[href="/index.html"] {
+    color: rgb(0, 247, 255);
+}
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 309px;
+    background-size: 1611px 921px;
+}
+
+h1 {
+    
+    font-size: 90px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    background: #5f99cf;
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #3a3a3a;
+    position: absolute;
+    top: 645px;
+    left: 1134px;
+    text-shadow: 6px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+#profile_pic {
+    
+    height: 350px;
+    width: 350px;
+    border-radius: 185px;
+    border: 5px solid rgb(68, 66, 66);
+    position: absolute;
+    top: 215px;
+    left: 1276px;
+}

@@ -1,0 +1,58 @@
+#div1 {
+    height: 922px;
+    width: 309px;
+    background-color: rgb(68, 66, 66);
+    margin: -8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#my_pic {
+    height: 125px;
+    width: 125px;
+    border-radius: 80px;
+    border: 2px solid rgb(48, 46, 46);
+    margin-left: 87px;
+    margin-top: 33px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+}
+
+a[href="/index.html"] {
+    margin: 0px 116px;
+    position: relative;
+    top: 30px;
+}
+
+a[href="/about.html"] {
+    margin: 0px 92px;
+    position: relative;
+    top: 55px;
+}
+
+a[href="/resume.html"] {
+    margin: 0px 104px;
+    position: relative;
+    top: 80px;
+}
+
+a[href="/contact.html"] {
+    margin: 0px 75px;
+    position: relative;
+    top: 105px;
+}
+
+.social_links {
+    height: auto;
+    width: 35px;
+    margin: 0px 4px;
+}
+
+#social_div {
+    margin: 14px 62px;
+}

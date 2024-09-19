@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/nav_bar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/resume.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navigation menue -->
+    <div id="div1">
+        <div id="pic_div">
+            <img src="static/img/rayyan.jpg" alt="My pic" id="my_pic">
+        </div>
+        <div id="social_div">
+            <a href="{{ params['insta_url'] }}"><img src="static/img/insta.png"
+                    alt="Insta" class="social_links"></a>
+            <a href="{{ params['x_url'] }}"><img src="static/img/x.png" alt="X" class="social_links"></a>
+            <a href="{{ params['youtube_url'] }}"><img src="static/img/youtube.png" alt="youtube"
+                    class="social_links"></a>
+            <a href="{{ params['lniked_in_url'] }}"><img src="static/img/linked in.png" alt="Linked in" class="social_links"></a>
+        </div>
+        <div>
+            <a href="/index.html">Home</a>
+        </div>
+        <div>
+            <a href="/about.html">About Me</a>
+        </div>
+        <div>
+            <a href="/resume.html">Resume</a>
+        </div>
+        <div>
+            <a href="/contact.html">Contact Me</a>
+        </div>
+    </div>
+    <!-- Resume page -->
+    <div>
+        <h1 id="main_h">My Resume</h1>
+        <h1 id="h1">My Info</h1>
+        <div id="info">
+            <p>
+            <div>
+                <b>Name:</b> Muhammad Rayyan Ansari
+            </div>
+            <div>
+                <b>Age:</b> 19
+            </div>
+            <div>
+                <b>Qualificaton:</b> Undergraduate
+            </div>
+            <div>
+                <b>Address:</b> Opposite Farooqia Masjid, Justice Hameed Colony, Nishter Road, Multan
+            </div>
+
+            </p>
+        </div>
+        <h1 id="h2">My Skills</h1>
+        <div id="skills">
+            <p>
+            <div>
+                <b>1.</b> HTML
+            </div>
+            <div>
+                <b>2.</b> CSS
+            </div>
+            <div>
+                <b>3.</b> Python Expert
+            </div>
+            <div>
+                <b>4.</b> Web development with Python Flask
+            </div>
+            <div>
+                <b>5.</b> My SQL Database Basics
+            </div>
+            <div>
+                <b>6.</b> Basic JavaScript and vue.js
+            </div>
+            <div>
+                <b>7.</b> C++ Intermediate
+            </div>
+            </p>
+        </div>
+        <h1 id="h3">Side Skills</h1>
+        <div id="side_skills">
+            <p>
+            <div>
+                <b>1.</b> Experience in Kali Linux and Linux Mint
+            </div>
+            <div>
+                <b>2.</b> Arduino programming with C++
+            </div>
+            <div>
+                <b>3.</b> Graphic Designing in Adobe Photoshop and Illustrator for frontends
+            </div>
+            </p>
+        </div>
+        <h1 id="h4">Best Projects</h1>
+        <div id="projects">
+            <p>
+            <div>
+                <b>1.</b> Voice Commanded Desktop Assistant
+            </div>
+            <div>
+                <b>2.</b> Message Encoder/Decoder App
+            </div>
+            <div>
+                <b>3.</b> News App
+            </div>
+            <div>
+                <b>4.</b> This Portfolio Website
+            </div>
+            </p>
+        </div>
+        <h1 id="h5">Education</h1>
+        <div id="education">
+            <p>
+                <div>
+                    <b>1.</b> Matricuation in 2020 from The Educators Beacon House
+                </div>
+                <div>
+                    <b>2.</b> FSC in 2023 from Punjab Group of Colleges
+                </div>
+                <div>
+                    <b>3.</b> Undergraduate in 2024 from University ofCentral Punjab
+                </div>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

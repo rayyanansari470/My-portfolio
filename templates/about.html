@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/nav_bar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation menue -->
+    <div id="div1">
+        <div id="pic_div">
+            <img src="static/img/rayyan.jpg" alt="My pic" id="my_pic">
+        </div>
+        <div id="social_div">
+            <a href="{{ params['insta_url'] }}"><img src="static/img/insta.png"
+                    alt="Insta" class="social_links"></a>
+            <a href="{{ params['x_url'] }}"><img src="static/img/x.png" alt="X" class="social_links"></a>
+            <a href="{{ params['youtube_url'] }}"><img src="static/img/youtube.png" alt="youtube" class="social_links"></a>
+            <a href="{{ params['linked_in_url'] }}"><img src="static/img/linked in.png" alt="Linked in" class="social_links"></a>
+        </div>
+        <div>
+            <a href="/index.html">Home</a>
+        </div>
+        <div>
+            <a href="/about.html">About Me</a>
+        </div>
+        <div>
+            <a href="/resume.html">Resume</a>
+        </div>
+        <div>
+            <a href="/contact.html">Contact Me</a>
+        </div>
+    </div>
+
+    <!-- About page -->
+    <div class="content">
+        <div>
+            <h1 id="main_h">About Me</h1>
+        </div>
+        <h1 id="h1">Introduction</h1>
+        <div id="intro">
+            <p>
+                Hello, My complete name is Muhammad Rayyan Ansari. I am a 19 year old teenager who has completed his
+                matriculation from The Educators Beacon House in year 2020 and FSC(high school) from Punjab Group of
+                Colleges in year 2023. I am currenty undergraduate and studying in University of Central punjab(UCP). I
+                am a hardworking student willing to obtain professional experience for my practical life during my
+                studies.
+            </p>
+        </div>
+        <h1 id="h2">Objectives</h1>
+        <div id="objectives">
+            <p>
+                Embarking on the journey to become a data scientist and entrepreneur, my primary objective is to harness
+                the power of data to create innovative solutions that address real-world problems. I aim to master the
+                art of data analysis, machine learning, and predictive modeling to uncover hidden patterns and trends
+                that can drive business success. By merging these skills with an entrepreneurial mindset, I aspire to
+                develop data-driven products and services that not only solve pressing challenges but also create
+                sustainable value in the market. My long-term goal is to build a company that leverages data science to
+                empower businesses and individuals, fostering a culture of informed decision-making and technological
+                advancement.
+            </p>
+        </div>
+        <h1 id="h3">Looking Forward To</h1>
+        <div id="looking_forward_to">
+            <p>
+                As a passionate web developer, I am eager to bring my skills and creativity to an organization that
+                values innovation and excellence. I look forward to contributing to a team where I can design and build
+                intuitive, user-friendly websites that deliver exceptional user experiences. My experience in front-end
+                and back-end development, coupled with a strong foundation in web technologies, enables me to craft
+                solutions that are both visually appealing and functionally robust. Working with an organization that
+                shares my commitment to quality and continuous improvement, I am excited about the opportunity to grow
+                professionally, collaborate with like-minded individuals, and make a meaningful impact on the digital
+                landscape.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
